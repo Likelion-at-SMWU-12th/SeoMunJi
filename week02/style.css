@@ -1,0 +1,53 @@
+img {
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: rgba(255, 177, 75, 0.675);
+    padding: 5px 0px 5px 5px;
+}
+input {
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+a {
+    text-decoration-line: none;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 12px;
+}
+a:hover {
+    background-color: orange;
+    color: black;
+}
+.profilebox{
+    text-align: center;
+}
+#mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+}
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Miriam+Libre:wght@400;700&display=swap');
+
+* {
+    font-family: "Coda", system-ui;
+}
