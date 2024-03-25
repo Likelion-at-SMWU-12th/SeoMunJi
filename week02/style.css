@@ -11,7 +11,7 @@ h1 {
 }
 h2 {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 40px;
     background-color: rgba(240, 167, 236, 0.55);
     padding: 5px 0px 5px 5px;
