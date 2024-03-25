@@ -1,4 +1,4 @@
-alert("Welcome to seomunji info page!");
+confirm("Welcome to seomunji info page!");
 const mainbox = document.getElementById("mainbox");
 function darkmode() {
     mainbox.style.backgroundColor = '#262626';

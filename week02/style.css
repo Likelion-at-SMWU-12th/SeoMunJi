@@ -10,9 +10,11 @@ h1 {
 }
 h2 {
     font-size: 20px;
+    font-weight: 600;
     margin-top: 40px;
-    background-color: rgba(255, 177, 75, 0.675);
+    background-color: rgba(240, 167, 236, 0.55);
     padding: 5px 0px 5px 5px;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
 }
 input {
     border: 1px solid #ccc;
@@ -31,7 +33,7 @@ a {
     font-size: 12px;
 }
 a:hover {
-    background-color: orange;
+    background-color: pink;
     color: black;
 }
 .profilebox{
@@ -46,8 +48,9 @@ a:hover {
     border: 1px solid #ebebeb;
     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
 }
-@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Miriam+Libre:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
 * {
-    font-family: "Coda", system-ui;
+    font-family: "Madimi One", sans-serif;
 }
