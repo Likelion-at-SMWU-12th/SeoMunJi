@@ -1,4 +1,4 @@
-confirm("Welcome to seomunji info page!");
+prompt("Welcome to seomunji info page!", "안녕하세요");
 const mainbox = document.getElementById("mainbox");
 function darkmode() {
     mainbox.style.backgroundColor = '#262626';
