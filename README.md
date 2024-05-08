@@ -1,7 +1,7 @@
 <br><br>
 ### 🦁 멋사 1주차 과제 🦁
 
-| 실습 <br> 번호 | 캡쳐 | 
+| 실습 <br> 번호 | week06 | 
 |:------:|:------|
 |`Model`|<img width="959" alt="week06-1" src="https://github.com/Likelion-at-SMWU-12th/SeoMunJi/assets/162777421/48f10778-9287-4ed0-9b63-c975a4dd3dea">
 
