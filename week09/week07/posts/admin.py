@@ -12,7 +12,7 @@ class CommentInLine(admin.TabularInline):
     min_num = 3
     max_num = 5
     verbose_name = '댓글'
-    verbose_name = '댓글들'
+    verbose_name_plural = '댓글들'
 
 class PostModelAdmin(admin.ModelAdmin):
     list_display = ['id', 'image', 'content', 'created_at', 'view_count', 'writer']
