@@ -40,4 +40,35 @@ public class PostRestController{
         logger.info("in read post");
         return this.postList.get(id);
     }
+
+    @PutMapping("/{id}")
+    public void updatePost(@PathVariable("id") int id, @RequestBody PostDto postDto) {
+        if (id >= 0 && id < postList.size()) {
+            PostDto targetPost = this.postList.get(id);
+            if (postDto.getTitle() != null) {
+                targetPost.setTitle(postDto.getTitle());
+            }
+            if (postDto.getContent() != null) {
+                targetPost.setContent(postDto.getContent());
+            }
+            if (postDto.getWriter() != null) {
+                targetPost.setWriter(postDto.getWriter());
+            }
+            this.postList.set(id, targetPost);
+            logger.info("Updated Post: " + targetPost.toString());
+        } else {
+            logger.warn("Post with ID " + id + " not found");
+        }
+    }
+
+    // Delete Post
+    @DeleteMapping("/{id}")
+    public void deletePost(@PathVariable("id") int id) {
+        if (id >= 0 && id < postList.size()) {
+            this.postList.remove(id);
+            logger.info("Deleted Post with ID: " + id);
+        } else {
+            logger.warn("Post with ID " + id + " not found");
+        }
+    }
 }
