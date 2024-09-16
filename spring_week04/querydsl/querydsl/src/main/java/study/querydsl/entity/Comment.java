@@ -16,16 +16,13 @@ public class Comment {
     @JoinColumn(name = "board_id", nullable = false)
     private Board board;
 
-    // 기본 생성자
     public Comment() {}
 
-    // 생성자
     public Comment(String content, Board board) {
         this.content = content;
         this.board = board;
     }
 
-    // Getter 및 Setter
     public Long getId() {
         return id;
     }

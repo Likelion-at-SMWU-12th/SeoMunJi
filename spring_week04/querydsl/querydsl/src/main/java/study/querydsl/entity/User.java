@@ -15,18 +15,16 @@ public class User {
     @Column(nullable = false)
     private String name;
 
-    // User(작성자)와 Board(게시글)는 1대다 관계
+    // User(작성자)와 Board(게시글)는 일대다 관계
     @OneToMany(mappedBy = "writer")
     private List<Board> boards = new ArrayList<>();
 
-    // 기본 생성자
     public User() {}
 
     public User(String name) {
         this.name = name;
     }
 
-    // Getter 및 Setter
     public Long getId() {
         return id;
     }

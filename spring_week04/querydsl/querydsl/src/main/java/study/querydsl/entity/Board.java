@@ -21,7 +21,6 @@ public class Board {
     @JoinColumn(name = "user_id")
     private User writer;  // 이 부분이 User 엔티티의 boards 필드와 연결되는 속성입니다.
 
-    // 기본 생성자
     public Board() {
     }
 
@@ -31,7 +30,6 @@ public class Board {
         this.writer = writer;
     }
 
-    // Getter 및 Setter
     public Long getId() {
         return id;
     }
